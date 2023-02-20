@@ -1,6 +1,3 @@
-/***************************
-BASE CONFIGURATION
-***************************/
 
 * {
     box-sizing: border-box;
@@ -57,9 +54,7 @@ h3 {
 }
 
 
-/***************************
-NAVBAR
-***************************/
+/* NAVBAR */
 
 nav {
     background-color: #1A120B;
@@ -114,9 +109,7 @@ nav a:hover {
 }
 
 
-/***************************
-DRAWER
-***************************/
+/* DRAWER */
 
 .off-canvas {
     margin: 10px auto;
@@ -135,9 +128,7 @@ DRAWER
 }
 
 
-/***************************
-CONTENT
-***************************/
+/* CONTENT */
 
 .headline {
     margin-bottom: 40px;
@@ -181,11 +172,12 @@ CONTENT
     font-weight: 400;
     font-size: 25px;
     margin-top: -7px;
+    margin-bottom: 7px;
     transition: 0.3s opacity;
 }
 
 .content-title:hover {
-    color: #D83A56;
+    color: #D5CEA3;
     transition: color 0.2s;
 }
 
@@ -207,11 +199,12 @@ CONTENT
     font-weight: 400;
     font-size: 25px;
     margin-top: -7px;
+    margin-bottom: 7px;
     transition: 0.3s opacity;
 }
 
 .content-title-detail:hover {
-    color: #D83A56;
+    color: #D5CEA3;
     transition: color 0.2s;
 }
 
@@ -266,9 +259,7 @@ CONTENT
     text-align: left;
 }
 
-/***************************
-SKIP TO CONTENT
-***************************/
+/* SKIP LINK */
 
 .skip-link {
     position: absolute;
@@ -285,10 +276,7 @@ SKIP TO CONTENT
 }
 
 
-/***************************
-BUTTON
-***************************/
-
+/* BUTTON */
 .btn:link,
 .btn:visited,
 input[type=submit] {
@@ -297,7 +285,7 @@ input[type=submit] {
     padding: 20px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px;
+    border-radius: 10px;
     transition: background-color 0.2s;
     /*color: 0.2s;*/
     /*border: 0.2s;*/
@@ -326,19 +314,19 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #3C2A21;
+    background-color: #ED9728;
     transition: background-color 0.2s;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #3C2A21;
+    border: 1px solid #ED9728;
     transition: border 0.2s;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #3C2A21;
+    border: 1px solid #ED9728;
     color: #fff;
     transition: all 0.2s;
 }
