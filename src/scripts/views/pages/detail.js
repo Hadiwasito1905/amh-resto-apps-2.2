@@ -17,7 +17,10 @@ const Detail = {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const restaurants = await RestoDB.detailRestaurant(url.id);
     const restaurantContainer = document.querySelector('#restaurant');
+    // const likeButtonContainer = document.querySelector('#likeButtonContainer');
+
     restaurantContainer.innerHTML = createRestaurantDetailTemplate(restaurants);
+    // likeButtonContainer.innerHTML = createLikeButtonTemplate();
 
     LikeButtonInitiator.init({
       likeButtonContainer: document.querySelector('#likeButtonContainer'),
